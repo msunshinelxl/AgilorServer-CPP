@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: KernelMonitorv1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPC81C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/KernelMonitorv1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\LinuxMonitor\KernelMonitor\KernelMonitorv1.cpp"
+"D:\LinuxMonitor\KernelMonitor\KernelMonitorv1Dlg.cpp"
+"D:\LinuxMonitor\KernelMonitor\MonitorReceiveSocket.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPC81C.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPC81D.tmp" with contents
+[
+WS2_32.lib DeviceRtdb.lib AgilorAPI.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/KernelMonitorv1.pdb" /debug /machine:I386 /out:"Debug/KernelMonitorv1.exe" /pdbtype:sept 
+.\Debug\BaseObject.obj
+.\Debug\BaseSocket.obj
+.\Debug\BaseSocketReceiveThread.obj
+.\Debug\BaseSocketSendThread.obj
+.\Debug\BaseThread.obj
+.\Debug\DataExchangePipe.obj
+.\Debug\KernelMonitorv1.obj
+.\Debug\KernelMonitorv1Dlg.obj
+.\Debug\ListenSocket.obj
+.\Debug\ManageKernelParameter.obj
+.\Debug\MonitorReceiveSocket.obj
+.\Debug\StdAfx.obj
+.\Debug\KernelMonitorv1.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPC81D.tmp"
+<h3>Output Window</h3>
+Compiling...
+KernelMonitorv1Dlg.cpp
+D:\LinuxMonitor\KernelMonitor\KernelMonitorv1Dlg.cpp(72) : warning C4244: 'argument' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+MonitorReceiveSocket.cpp
+D:\LinuxMonitor\KernelMonitor\MonitorReceiveSocket.cpp(88) : warning C4101: 'temp' : unreferenced local variable
+D:\LinuxMonitor\KernelMonitor\MonitorReceiveSocket.cpp(221) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Generating Code...
+Compiling...
+KernelMonitorv1.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPC9A4.tmp" with contents
+[
+/nologo /o"Debug/KernelMonitorv1.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\BaseObject.sbr
+.\Debug\BaseSocket.sbr
+.\Debug\BaseSocketReceiveThread.sbr
+.\Debug\BaseSocketSendThread.sbr
+.\Debug\BaseThread.sbr
+.\Debug\DataExchangePipe.sbr
+.\Debug\KernelMonitorv1.sbr
+.\Debug\KernelMonitorv1Dlg.sbr
+.\Debug\ListenSocket.sbr
+.\Debug\ManageKernelParameter.sbr
+.\Debug\MonitorReceiveSocket.sbr]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPC9A4.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+KernelMonitorv1.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

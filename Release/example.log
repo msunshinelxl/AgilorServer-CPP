@@ -1,0 +1,56 @@
+2015-11-18 17:07:42,194  : Start Application
+2015-11-18 17:07:43,345  : device connect:TEST
+2015-11-18 17:07:46,877  : Start Application
+2015-11-18 17:07:47,988  : device connect:TEST
+2015-11-18 17:07:47,998  : device connect:test_device
+2015-11-18 17:07:48,011  : device connect:Simu11
+2015-11-18 17:07:48,021  : device connect:Simu12
+2015-11-18 17:07:48,031  : device connect:Simu13
+2015-11-18 17:07:48,042  : device connect:Simu14
+2015-11-18 17:08:10,943  : Add New Client Ip:10.0.0.143, Port:57119, Num of Clients:1
+2015-11-18 17:08:54,023  : Delete Client Ip:10.0.0.143, Port:57119, Num of Clients:0
+2015-11-18 17:10:33,032  : Add New Client Ip:10.0.0.143, Port:57159, Num of Clients:1
+2015-11-18 17:10:33,922  : Delete Client Ip:10.0.0.143, Port:57159, Num of Clients:0
+2015-12-11 14:25:33,314  : Start Application
+2015-12-11 14:25:34,991  : device connect:TEST
+2015-12-11 14:25:35,125  : device connect:test_device
+2015-12-11 14:25:35,139  : device connect:Simu11
+2015-12-11 14:25:35,150  : device connect:Simu12
+2015-12-11 14:25:35,160  : device connect:Simu13
+2015-12-11 14:25:35,170  : device connect:Simu14
+2015-12-11 14:31:24,359  : Add New Client Ip:127.0.0.1, Port:50429, Num of Clients:1
+2015-12-11 14:31:24,827  : Delete Client Ip:127.0.0.1, Port:50429, Num of Clients:0
+2015-12-11 15:25:00,933  : Add New Client Ip:127.0.0.1, Port:27400, Num of Clients:1
+2015-12-11 15:25:01,278  : Delete Client Ip:127.0.0.1, Port:27400, Num of Clients:0
+2015-12-11 16:34:11,290  : Add New Client Ip:127.0.0.1, Port:31141, Num of Clients:1
+2015-12-11 16:34:22,047  : Delete Client Ip:127.0.0.1, Port:31141, Num of Clients:0
+2015-12-11 16:34:52,010  : Add New Client Ip:127.0.0.1, Port:31171, Num of Clients:1
+2015-12-11 16:35:02,556  : Delete Client Ip:127.0.0.1, Port:31171, Num of Clients:0
+2015-12-11 16:52:37,014  : Start Application
+2015-12-11 16:53:17,089  : Start Application
+2015-12-11 16:54:44,039  : Start Application
+2015-12-11 16:54:50,248  : device connect:
+2015-12-11 16:54:50,286  : device connect:JZ1
+2015-12-11 16:54:52,545  : device connect:Simu1
+2015-12-11 16:54:54,506  : device connect:Simu3
+2015-12-11 16:54:56,458  : device connect:Simu2
+2015-12-11 16:54:58,611  : device connect:Simu5
+2015-12-11 16:55:00,982  : device connect:Simu4
+2015-12-11 16:55:03,345  : device connect:Simu10
+2015-12-11 16:55:05,871  : device connect:Simu7
+2015-12-11 16:55:08,052  : device connect:Simu6
+2015-12-11 16:55:10,595  : device connect:Simu9
+2015-12-11 16:55:13,316  : device connect:Simu8
+2015-12-11 16:55:13,321  : device connect:TEST
+2015-12-11 16:56:16,807  : Add New Client Ip:127.0.0.1, Port:32098, Num of Clients:1
+2015-12-11 16:56:26,482  : Delete Client Ip:127.0.0.1, Port:32098, Num of Clients:0
+2015-12-11 16:57:52,995  : Add New Client Ip:127.0.0.1, Port:32166, Num of Clients:1
+2015-12-11 16:58:02,556  : Delete Client Ip:127.0.0.1, Port:32166, Num of Clients:0
+2015-12-11 16:59:54,053  : Add New Client Ip:127.0.0.1, Port:32254, Num of Clients:1
+2015-12-11 17:01:20,907  : Delete Client Ip:127.0.0.1, Port:32254, Num of Clients:0
+2016-03-15 15:40:18,175  : Start Application
+2016-03-15 15:40:19,389  : device connect:Simu11
+2016-03-15 15:40:38,524  : Add New Client Ip:127.0.0.1, Port:18851, Num of Clients:1
+2016-03-15 15:40:42,172  : Add New Client Ip:127.0.0.1, Port:18854, Num of Clients:2
+2016-03-15 15:49:56,597  : RecvFailNum:-505667296
+2016-03-15 15:50:00,232  : RecvFailNum:-505667296

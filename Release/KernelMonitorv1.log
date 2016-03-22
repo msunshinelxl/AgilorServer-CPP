@@ -1,0 +1,40 @@
+﻿Build started 2016/3/17 15:37:32.
+     1>Project "C:\code\c-c++\distributeAgilor\server\KernelMonitorv1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\KernelMonitorv1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\include\log4cxx\include /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Release\KernelMonitorv1.pch" /Fo".\Release\\" /Fd".\Release\vc100.pdb" /FR".\Release\\" /Gd /TP /analyze- /errorReport:prompt BaseSocket.cpp
+         BaseSocket.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\KernelMonitorv1.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Lib\log4cxx\Dynamic\Release WS2_32.lib DeviceRtdb.lib AgilorAPI.lib libmysql.lib log4cxx.lib /MANIFEST /ManifestFile:".\Release\KernelMonitorv1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\code\c-c++\distributeAgilor\server\Release\KernelMonitorv1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\KernelMonitorv1.lib" /MACHINE:X86 .\Release\KernelMonitorv1.res
+         .\Release\BaseGetValueEntity.obj
+         .\Release\BaseObject.obj
+         .\Release\BaseSocket.obj
+         .\Release\BaseSocketReceiveThread.obj
+         .\Release\BaseSocketSendThread.obj
+         .\Release\BaseThread.obj
+         .\Release\BaseType.obj
+         .\Release\ComFuncs.obj
+         .\Release\DataExchangePipe.obj
+         .\Release\KernelMonitorv1.obj
+         .\Release\KernelMonitorv1Dlg.obj
+         .\Release\ListenSocket.obj
+         .\Release\ManageKernelParameter.obj
+         .\Release\MonitorReceiveSocket.obj
+         .\Release\StdAfx.obj
+         KernelMonitorv1.vcxproj -> C:\code\c-c++\distributeAgilor\server\.\Release\KernelMonitorv1.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release\KernelMonitorv1.exe;#1" /manifest .\Release\KernelMonitorv1.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Release\KernelMonitorv1.bsc" .\Release\BaseGetValueEntity.sbr .\Release\BaseObject.sbr .\Release\BaseSocket.sbr .\Release\BaseSocketReceiveThread.sbr .\Release\BaseSocketSendThread.sbr .\Release\BaseThread.sbr .\Release\BaseType.sbr .\Release\ComFuncs.sbr .\Release\DataExchangePipe.sbr .\Release\KernelMonitorv1.sbr .\Release\KernelMonitorv1Dlg.sbr .\Release\ListenSocket.sbr .\Release\ManageKernelParameter.sbr .\Release\MonitorReceiveSocket.sbr .\Release\StdAfx.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Release\KernelMonitorv1.unsuccessfulbuild".
+         Touching ".\Release\KernelMonitorv1.lastbuildstate".
+     1>Done Building Project "C:\code\c-c++\distributeAgilor\server\KernelMonitorv1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.97

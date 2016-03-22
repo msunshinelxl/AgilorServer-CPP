@@ -1,0 +1,277 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\KernelMonitorv1.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "monitor_32.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 KernelMonitorv1"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "KernelMonitorv1 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2013",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_KERNELMONITORV1_DIALOG DIALOGEX 0, 0, 371, 302
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "长安汽车车联网数据分析平台 -- 数据接收"
+FONT 10, "宋体", 0, 0, 0x1
+BEGIN
+    LTEXT           "已处理的包总数：",IDC_STATIC,17,153,86,16,SS_CENTERIMAGE
+    CTEXT           "当前包处理速度(个/S)：",IDC_STATIC2,15,138,86,16,SS_CENTERIMAGE
+    EDITTEXT        IDC_PACKCOUNT,102,155,66,13,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_PACKPERSECOND,102,139,66,13,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "实时数据库（RTDB）",IDC_RTDB,7,7,168,115
+    LTEXT           "数据库IP：",IDC_RTDBIP,25,21,45,11
+    CONTROL         "IPAddress1",IDC_RTIP,"SysIPAddress32",WS_TABSTOP,90,20,66,12
+    LTEXT           "设备端口：",IDC_RTDBPORT,25,38,45,11
+    EDITTEXT        IDC_RTPORT,90,36,66,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "连 接",IDC_CONNECTRTDB,72,103,43,14
+    LTEXT           "客户端连接数：",IDC_RTDBSTATUS,25,85,53,11
+    EDITTEXT        IDC_CLIENTCNT,90,84,66,12,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "实时数据库运行统计",IDC_TRANSFER,7,128,168,76
+    LTEXT           "网络速度（MB/S)：",IDC_STATIC3,17,169,86,16,SS_CENTERIMAGE
+    EDITTEXT        IDC_NETSPEED,102,171,66,13,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "客户端端口：",IDC_RTDBCLIENTPORT,25,55,45,11
+    EDITTEXT        IDC_RTCLIENTPORT,90,52,66,12,ES_CENTER | ES_AUTOHSCROLL
+    PUSHBUTTON      "断 连",IDC_DISCONNECT,121,103,41,14,WS_DISABLED
+    PUSHBUTTON      "参数管理",IDC_MANAGE_POINTS,19,103,44,14
+    GROUPBOX        "统计分析（未使用）",IDC_STATUS_ANALYSIS,182,7,182,197
+    GROUPBOX        "平均电压走势分析",IDC_STATUS_VOLTAGE,188,52,170,68
+    PUSHBUTTON      "开启服务 -- 平均电压走势分析",IDC_BTN_STARTSERVICE_VOL,206,64,131,19,WS_DISABLED
+    LTEXT           "错误包数：",IDC_STATIC,18,185,86,16,SS_CENTERIMAGE
+    EDITTEXT        IDC_ERRORPACKCOUNT,102,187,66,13,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_CUR_SPEED_EDIT,194,87,71,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CUR_COUNT_EDIT,280,87,71,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_ERR_COUNT_EDIT,194,103,37,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_ERR_CODE_EDIT,238,103,37,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    GROUPBOX        "平均油耗分析",IDC_STATUS_VOLTAGE2,188,126,170,73
+    PUSHBUTTON      "开启服务 -- 平均油耗分析",IDC_BTN_STARTSERVICE_OIL,207,139,131,19,WS_DISABLED
+    EDITTEXT        IDC_CUR_SPEED_EDIT2,195,165,71,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_CUR_COUNT_EDIT2,281,165,71,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_ERR_COUNT_EDIT2,195,181,37,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_ERR_CODE_EDIT2,239,181,37,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    GROUPBOX        "运行状态",IDC_STATIC,7,207,357,88
+    CONTROL         "",IDC_LIST_RUNTIME_MSG,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,13,217,343,70
+    PUSHBUTTON      "开启服务",IDC_BUTTON_STARTSERVICE,199,22,152,20,WS_DISABLED
+END
+
+IDD_MANAGE_KERNEL_PARAMETER DIALOG 0, 0, 295, 239
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Linux内核运行参数管理"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "退出",IDOK,239,54,50,14
+    CONTROL         "List2",IDC_TAG_LIST,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,7,19,223,157
+    PUSHBUTTON      "删除点",IDC_REMOVE_TAG,238,34,50,14
+    PUSHBUTTON      "添加点",IDC_ADD_TAG,238,210,50,14
+    LTEXT           "Linux内核运行参数列表：",IDC_STATIC,7,7,112,13
+    LTEXT           "点名：",IDC_STATIC,36,188,24,12
+    EDITTEXT        IDC_EDIT1,63,187,80,14,ES_AUTOHSCROLL
+    LTEXT           "数据类型：",IDC_STATIC,183,191,37,9
+    LTEXT           "内核参数名：",IDC_STATIC,13,214,46,11
+    EDITTEXT        IDC_EDIT3,62,211,80,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,227,188,61,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "KernelMonitorv1 Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "KernelMonitorv1"
+            VALUE "LegalCopyright", "版权所有 (C) 2013"
+            VALUE "OriginalFilename", "KernelMonitorv1.EXE"
+            VALUE "ProductName", "KernelMonitorv1 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_KERNELMONITORV1_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 364
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 295
+    END
+
+    IDD_MANAGE_KERNEL_PARAMETER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 288
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MANAGE_KERNEL_PARAMETER DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 7, 0
+0xa4b3, 0xfbd5, 0xcdd0, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0xa1b8, 0xe3b5, 0xcdd0, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0xbcb2, 0xfbb6, 0xcdd0, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0xd6d7, 0xfbb7, 0xaeb4, 0xcdd0, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 KernelMonitorv1(&A)..."
+END
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\KernelMonitorv1.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
